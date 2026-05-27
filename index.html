@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Personal academic website with about, research, and teaching information."
+    >
+    <title>Fantine (Tingfang) Xiao</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <header class="top-bar">
+        <nav class="tabs" aria-label="Website sections">
+          <button class="tab-button active" type="button" data-tab="about">About</button>
+          <button class="tab-button" type="button" data-tab="research">Research</button>
+          <button class="tab-button" type="button" data-tab="teaching">Teaching</button>
+        </nav>
+        <span class="site-name">Fantine Xiao</span>
+      </header>
+
+      <section class="tab-panel active" id="about">
+        <div class="about-layout">
+          <img class="profile-photo" src="profile_photo.JPG" alt="Profile photo of Fantine (Tingfang) Xiao">
+          <div>
+            <h1>Fantine (Tingfang) Xiao</h1>
+            <p class="subtitle">PhD Candidate in Behavioral and Experimental Economics</p>
+            <h2>About Me</h2>
+            <p>
+              I am a researcher based in Amsterdam. My work studies how people make
+              decisions under uncertainty, with a particular interest in beliefs,
+              emotions, trust, and experimental methods.
+            </p>
+            <p>
+              You can also use this space for a brief note about your background,
+              current projects, or the kinds of collaborations you are interested in.
+            </p>
+            <p class="links">
+              <a href="#">CV</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-panel" id="research">
+        <h2>Research</h2>
+        <article>
+          <h3>Working Paper Title</h3>
+          <p>
+            Short description of the paper, the question it answers, and the main
+            result. Add links to the paper, slides, data, or code when available.
+          </p>
+        </article>
+        <article>
+          <h3>Project Title</h3>
+          <p>
+            A second research project can go here. This page is intentionally
+            minimal so it is easy to update as your work develops.
+          </p>
+        </article>
+      </section>
+
+      <section class="tab-panel" id="teaching">
+        <h2>Teaching</h2>
+        <article>
+          <h3>Course Name</h3>
+          <p>
+            Briefly describe the course, your role, institution, and semester.
+          </p>
+        </article>
+        <article>
+          <h3>Teaching Materials</h3>
+          <p>
+            Add syllabi, slides, problem sets, or other resources you want to
+            share with students.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Fantine Xiao</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

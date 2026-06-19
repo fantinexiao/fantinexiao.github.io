@@ -201,11 +201,18 @@ h4 {
   gap: 8px;
 }
 
-.site-name {
+.site-name,
+.site-name:visited {
   color: var(--tab-active);
   font-family: "Arial Black", Arial, Helvetica, sans-serif;
   font-size: 1.35rem;
   font-weight: 900;
+  text-decoration: none;
+}
+
+.site-name:hover,
+.site-name:focus-visible {
+  color: var(--accent-dark);
 }
 
 .tab-button {

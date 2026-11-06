@@ -127,6 +127,29 @@ h4 {
   margin-top: 10px;
 }
 
+.paper-actions {
+  position: relative;
+}
+
+.paper-button {
+  position: absolute;
+  top: 0;
+  left: 5.5rem;
+  padding: 0 0.55rem;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.paper-button:hover,
+.paper-button:focus-visible {
+  color: var(--accent-dark);
+  text-decoration: underline;
+}
+
+
 .abstract summary {
   display: inline-flex;
   color: var(--accent);
